@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qubot"
+version = "0.1.0"
+description = "A Discord Bot for Quantum Computing!"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"discord.py" = "^2.0.1"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+flake8 = "^5.0.4"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
